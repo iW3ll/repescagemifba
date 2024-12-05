@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #ffffff;
+    background-image: url("images/s-l1200.png");
+    
+    
+        
+      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 150px;
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 70px;
+    font-family: "Sixtyfour Convergence", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "BLED" 0,
+          "SCAN" 0,
+          "XELA" 0,
+          "YELA" 0;
+    
+    
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: #222;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #54027c;
+    color: #fcfcfc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+
+button:hover {
+    background-color: #650695;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    
+}
+
+.instrucoes {
+    display: none;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    
+   
+    
+}
+
+footer a {
+    color: rgb(192, 151, 235);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
+}
+
+.footerMade{
+    font-size: 1.0rem;
+}

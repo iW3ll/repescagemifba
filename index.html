@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urubu da Repescagem</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Urubu <br> da <br>Repescagem</h1>
+        <label for="mediaFinal">Digite sua média final</label>
+        <input type="number" id="mediaFinal" step="0.1" min="0" max="10" placeholder="Ex: 5.6">
+        <button onclick="calcular()">Calcular</button>
+        <p id="resultado"></p>
+
+        <button id="toggleButton" onclick="toggleInstrucoes()">Como utilizar</button>
+        <div id="instrucoes" class="instrucoes">
+            <p>1. Entre no seu SUAP, caminhe para ENSINO/boletim.</p>
+            <p>2. Insira sua média final no campo de entrada, é a nota MD, não a MFD/Conceito.</p>
+            <p>3. Clique em "Calcular" para ver se você passou ou quanto precisa tirar para passar.</p>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p class="footerMade">Feito por Wesley - <a href="https://github.com/iw3ll" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
